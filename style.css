@@ -1,0 +1,79 @@
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
+h1{
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border-bottom: 2px solid #ccc;
+}
+
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid ;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+#formulario-registro {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+
+#formulario-registro label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+
+#formulario-registro input[type="text"],
+#formulario-registro input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+#formulario-registro button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#formulario-registro button:hover {
+  background-color: #45a049;
+}
+
+
+#form-status {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
